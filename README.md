@@ -1,6 +1,6 @@
 # Women in the Olympic
 
-** Show the historical trend of medals for women athletes in Olympics. **
+**Show the historical trend of medals for women athletes in Olympics.**
 
 Prerequisites : Need [Python3](https://www.python.org/) to play.
 
