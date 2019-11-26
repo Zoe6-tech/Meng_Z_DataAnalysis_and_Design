@@ -1,10 +1,17 @@
-# Rock Paper Scissors Python!
+# Women in the Olympic
 
-Pick your weapon and play against the computer - you'll only get a virtual sting if you lose!
+Pierre DE Coubertin, founder of the modern games, strongly opposed the idea of women participating in the games, calling it "unrealistic, boring, unaesthetic and incorrect".
+While he was not the last person to oppose women's participation in the games. Many people questioned whether women should take part in the games. After all, some sports are too hard for women, such as shot put or long-distance running.
+Here, I wanted to understand the historical trend of medals won by women athletes in Olympics: how many medals did women win in the winter Olympic, what the proportion of medals won by women on Olympic teams, and what is the trend.The data what I discover is set contains 5,771 pieces of information about 1924 to 2014 winter Olympics.
 
-Prerequisites : All you need is Python3 to play.
+Steps:
+1. Orgnize 
 
-Clone the project, navigate to the correct directory, -cd directory name - and run the [game.py](documents/Meng_Z_PythonHW/game.py) file in a Python Terminal window for macOS/Linux.
+the number of female athletes who win the metals continued to grow at a high rate
+The participation of female athletes reached its highest point during the most recent Olympiad (Sochi 2014), in which slightly more than 44% of Olympians were women.
+Medal counts for women of different years
+
+
 
 ## Description
 
