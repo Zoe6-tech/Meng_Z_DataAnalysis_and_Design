@@ -1,0 +1,34 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 5px 280px;
+	background-color: white;
+	align-content: center;
+	text-align: center;
+}
+.mainHeader {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.logoHeader {
+	width: 900px;
+	margin: 10px 0px 20px 20px;
+}
+.logo{
+	width: 300px;
+	background-color: white;
+    border: 0px;
+}
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+img{
+	margin: 5px;
+    border: 10px solid grey;
+}
+.total {
+    margin-bottom: 30px ;
+}
