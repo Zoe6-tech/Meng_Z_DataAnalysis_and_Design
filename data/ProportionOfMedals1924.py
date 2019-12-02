@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 
 labels=['Medals For Women','Medals For Men']
 colors=['red','blue']
-x=[272,340]
+x=[6,112]
 
 plt.pie(x,labels=labels,colors=colors,autopct='%1.2f%%')
-plt.title('Medal counts for women and men at the 2014 Winter Olympics')
+plt.title('Medal counts for women and men at the 1924 Winter Olympics')
 plt.show()

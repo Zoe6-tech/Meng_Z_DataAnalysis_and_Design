@@ -18,7 +18,7 @@ for x,y in enumerate(y_Men):
 for x,y in enumerate(y_Women):
 	plt.text(x,y,'%s' % y,ha='center',va='bottom')
 plt.xticks(np.arange(len(year))+bar_width/2,year)
-plt.xlabel('Year of Winter Olympics')
+plt.xlabel(year,'Year of Winter Olympics')
 plt.ylabel('Number of Medals ')
 plt.title('Number of Medals For Women and Men of Different Years')
 plt.legend()
