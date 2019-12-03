@@ -1,34 +1,105 @@
 .container {
+	width: 5000px;
 	display: flex;
 	flex-direction: column;
 	margin: 5px 280px;
-	background-color: white;
 	align-content: center;
 	text-align: center;
+	border: 200px solid transparent;
+	border-image:linear-gradient(to bottom,#0F52BA,#FCD12A,#3BB142,red,black);
+	border-image-slice: 5;
 }
+
 .mainHeader {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
 }
 
-.logoHeader {
-	width: 900px;
-	margin: 10px 0px 20px 20px;
+
+.logoheader{
+	width: 600px;
+	margin: 20px;
+	background-color: white;
 }
 .logo{
-	width: 300px;
-	background-color: white;
-    border: 0px;
+	margin: 20px;
+	padding: 100px 20px 10px 100px; 
 }
+
+.title{
+	margin-top: 300px;
+    font-size: 100px;
+	padding: 50px 300px 20px 700px;
+}
+
+
 body {
 	font-family: Helvetica, Arial, sans-serif;
 }
-
-img{
-	margin: 5px;
-    border: 10px solid grey;
+h2{
+	font-size: 60px;
+	margin: 50px;
 }
-.total {
-    margin-bottom: 30px ;
+
+.total{
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.image1{
+	margin: 0px 900px;
+    border: 50px solid transparent;
+	border-image:linear-gradient(to top,#0F52BA,#FCD12A,#3BB142,red,black);
+	border-image-slice: 5;
+}
+.point1{
+	display: flex;
+	flex-direction: row;
+}
+.point1 p{
+	font-size: 50px;
+	width: 600px;
+	margin: 160px 30px 30px 1000px;
+}
+.image2{
+	margin:50px 900px 0px 100px;
+	float: right;
+	border: 50px solid #3BB143;
+}
+
+
+.trend{
+     display: flex;
+     flex-direction: row;
+     flex-flow: wrap;
+}
+
+.trend p{
+	width: 700px;
+	font-size: 50px;
+	margin: 200px 30px 0px 1000px;
+}
+
+.image3{
+	margin: 100px 500px;
+    border: 50px solid #FCD12A;
+}
+.image4{
+
+	margin: 50px 0px 0px 1000px;
+    border: 50px solid red;
+}
+
+
+.compare{
+	display: row;
+}
+.compare img{
+	margin: 5px;
+    border: 50px solid #0F52BA;
+}
+.compare p{
+	margin: 50px 1000px;
+	font-size: 50px;
 }
